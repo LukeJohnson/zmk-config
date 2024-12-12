@@ -34,10 +34,10 @@
  *                                 |  GUI  | LSHIFT|  BSPC | LCTRL |---|  ALT  | SPACE | SYM_L |  GUI  |
  */
                         bindings = <
-&kp  GRAVE    &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  BSPC
+&kp  GRAVE    &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &none
 &kp  TAB      &kp  A        &kp  R        &kp  S        &kp  T        &kp  G                                                                         &kp  M        &kp  N        &kp  E        &kp  I        &kp  O        &kp  SQT
 &kp  ESC      &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp   LGUI                                         &caps_word    &kp  K        &kp  H        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  ENTER
-                                                        &mo  NAV_L    &kp  LSHIFT   &sk  BSPC      &kp  LCTRL            &kp  LALT     &kp  SPACE    &mo  SYM_L    &kp  RGUI
+                                                        &mo  NAV_L    &kp  LSHIFT   &kp  BSPC      &kp  LCTRL            &kp  LALT     &kp  SPACE    &mo  SYM_L    &kp  RGUI
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
