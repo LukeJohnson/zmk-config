@@ -64,6 +64,7 @@
  * | Ctrl  |  F1   |  F2   |  F3   |  F4   |  F5   |  UnDo |-------------------| ReDo  |  F6   |  F7   |  F8   |  F9   |  F10  | Ctrl  |
  *                                 |       |       |       |       |---| NAV_L |       |       |       |
  */
+ // &msc SCRL_UP not working... try &kp SCRL_UP
                         bindings = <
 &kp  Copy     &kp  PG_UP    &kp  HOME     &kp  UP       &kp  END      &msc SCRL_UP                                                                   &kp   N6      &kp   N7     &kp   N8      &kp   N9      &kp  N0       &trans
 &kp  Cut      &kp  PG_DN    &kp  LEFT     &kp  DOWN     &kp  RIGHT    &msc SCRL_DOWN                                                                 &kp   PG_UP   &kp  LEFT    &kp   UP      &kp   DOWN    &kp  RIGHT    &kp PG_DN
@@ -95,9 +96,9 @@
 // Function Layer
                 fun_layer {
                         bindings = <
-&trans        &trans        &kp  F7       &kp  F8       &kp  F9       &kp  F10                                                                       &trans        &trans        &trans        &trans        &trans        &trans
-&trans        &trans        &kp  F4       &kp  F5       &kp  F6       &kp  F11                                                                       &trans        &trans        &trans        &trans        &trans        &trans
-&trans        &trans        &kp  F1       &kp  F2       &kp  F3       &kp  F12      &trans                                             &trans        &trans        &trans        &trans        &trans        &trans        &trans
+&trans        &trans        &kp  F7       &kp  F8       &kp  F9       &kp  F10                                                                       &bt BT_PAIR   &bt USB_TOG   &trans        &trans        &trans        &bt BT_CLR
+&trans        &trans        &kp  F4       &kp  F5       &kp  F6       &kp  F11                                                                       &bt BT_ON     &trans        &trans        &trans        &trans        &trans
+&trans        &trans        &kp  F1       &kp  F2       &kp  F3       &kp  F12      &trans                                             &trans        &bt BT_OFF    &trans        &trans        &trans        &trans        &trans
                                                         &trans        &trans        &trans        &trans                 &trans        &trans        &trans        &trans 
                         >;
 			
